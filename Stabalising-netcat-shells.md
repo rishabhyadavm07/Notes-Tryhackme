@@ -51,3 +51,34 @@ fg + [Enter x 2]
 This should return your shell with tab auto-completion!
 ```
 
+## Keep It Clean; Clear The Screen
+
+```
+In a shell on your local machine, type:
+`echo $TERM`
+  
+In the netcat shell type:
+`export TERM=screen`
+
+Now you can clear your screen!
+```
+
+## History Lesson
+
+```
+This will be giving shell the functionality of getting the previous executed command back by typing a up arrow.  
+export SHELL=bash
+
+```
+
+## Big Screen
+
+Usefull when we type a long oneliner and the words at the first get skipped due to no word wrap
+
+```
+To see the size of your local machine type:
+stty size
+
+To make the netcat terminal larger -
+stty rows 100 cols 100
+```
